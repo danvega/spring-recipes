@@ -1,2 +1,5 @@
-# spring-recipes
-Spring Recipes: A Collection of common-sense solutions
+# Spring Recipes: A Collection of common-sense solutions
+
+Over the years, Spring has evolved to solve the ever-increasing demands placed on software teams. From circuit breakers to security to queues to Kubernetes, Spring has an answer to that! But breadth can be overwhelming especially when you need to deploy to production yesterday. While knowing maybe half the battle, left unsaid is applying that knowledge to real-world situations; in other words, how do you bridge the gap between knowing Spring can do that to actually using Spring to fix your issue? With a plethora of examples, this talk will walk you through common problems in modern software development. From monitoring to testing to messaging to reactive programming, this talk will give you concrete solutions for your day-to-day needs.
+
+In this session, you will learn about common situations you will encounter as a developer and how Spring can make the right thing to do the easy thing to do. Cutting through the cruft, you will leave armed with practical code examples you can use on your projects. This talk will touch on Spring Boot, Spring Cloud, APIs, microservices, persistence, testing, and much more. By the end of this session, you will be armed with the knowledge you need to confidently reach for the right tool the next time a problem arises!
