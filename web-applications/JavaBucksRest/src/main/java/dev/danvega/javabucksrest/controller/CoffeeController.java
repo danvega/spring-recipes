@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/coffee")
+@CrossOrigin
 public class CoffeeController {
 
     private final CoffeeService coffeeService;

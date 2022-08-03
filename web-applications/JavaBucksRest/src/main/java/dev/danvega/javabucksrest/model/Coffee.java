@@ -13,6 +13,5 @@ public record Coffee(
         Size size,
         @Max(10)
         BigDecimal price,
-        @JsonIgnore
         BigDecimal cost) {
 }
