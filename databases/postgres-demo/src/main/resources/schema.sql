@@ -10,6 +10,6 @@ CREATE TABLE coffee(
     size varchar(15) NOT NULL
 );
 
-INSERT INTO coffee(name,size) VALUES('Caffè Americano','GRANDE');
-INSERT INTO coffee(name,size) VALUES('Caffè Latte','VENTI');
-INSERT INTO coffee(name,size) VALUES('Caffè Caramel Macchiato','TALL');
+-- INSERT INTO coffee(name,size) VALUES('Caffè Americano','GRANDE');
+-- INSERT INTO coffee(name,size) VALUES('Caffè Latte','VENTI');
+-- INSERT INTO coffee(name,size) VALUES('Caffè Caramel Macchiato','TALL');
