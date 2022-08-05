@@ -1,7 +1,5 @@
 package dev.danvega.javabucksrest.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotEmpty;
 import java.math.BigDecimal;
