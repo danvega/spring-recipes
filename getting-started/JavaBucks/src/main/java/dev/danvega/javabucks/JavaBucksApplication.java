@@ -22,5 +22,5 @@ public class JavaBucksApplication {
         var context = SpringApplication.run(JavaBucksApplication.class, args);
         Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
     }
-    
+
 }
