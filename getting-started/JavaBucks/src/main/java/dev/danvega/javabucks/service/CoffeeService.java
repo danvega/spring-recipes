@@ -2,6 +2,7 @@ package dev.danvega.javabucks.service;
 
 import dev.danvega.javabucks.model.Coffee;
 import dev.danvega.javabucks.model.Size;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;

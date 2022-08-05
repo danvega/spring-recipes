@@ -3,9 +3,10 @@ package dev.danvega.javabucks.controller;
 import dev.danvega.javabucks.service.CoffeeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
-@RestController
+@Service
 public class CoffeeController {
 
     private final CoffeeService coffeeService;
@@ -15,6 +16,11 @@ public class CoffeeController {
     public CoffeeController(CoffeeService coffeeService) {
         this.coffeeService = coffeeService;
         log.info("All Coffees: {}",coffeeService.findAll());
+    }
+
+    @GetMapping("/")
+    public String random() {
+        return "Hello, KCDC!";
     }
 
 }
